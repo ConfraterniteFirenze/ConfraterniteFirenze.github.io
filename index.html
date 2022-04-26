@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="utf-8" />
     <title>Mostra Sant'Antonio Abate</title>
@@ -36,7 +36,9 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
   </head>
-
+  
+  <script src="js/main.js" defer></script>
+  
   <body>
     <!--==========================
     Header
@@ -69,27 +71,37 @@
   ============================-->
     <section id="intro">
       <div class="intro-container wow fadeIn">
-        <h1 class="mb-4 pb-0">
-          Mostra<br /><span>Abbazia di Sant'antonio Abate</span>
+
+        <h1 class="pb-0" style="margin:0">
+          Mostra<br /><span>di Sant'antonio Abate</span>
         </h1>
+
+        <p id="count" style="font-size:40px;margin:0"></p>
+        <script src="js/countdown.js"></script>
+
         <p class="mb-4 pb-0">
           7 Giugno,
           <a target="_blank" href="https://goo.gl/maps/HgyWmaqsBjWud1y58">
             Via deglia Alfani 47
           </a>, Firenze
         </p>
+
         <p class="mb-4 pb-0">
           8 Giugno,
           <a target="_blank" href="https://goo.gl/maps/pzZyZzaAxudwQRB16">
             Via della Colonna 10
           </a>, Firenze
         </p>
+
+
+        <!-- PLAY BUTTON -->
         <a
           href="https://www.youtube.com/watch?v=0JSm7qhALso"
           class="venobox play-btn mb-4"
           data-vbtype="video"
           data-autoplay="true"
         ></a>
+        
         <a href="#about" class="about-btn scrollto">About</a>
       </div>
     </section>
@@ -199,7 +211,7 @@
               <div class="contact-address">
                 <i class="ion-ios-location-outline"></i>
                 <h3>indirizzo</h3>
-                <address>Via degli Alfani, Firenze, Italia</address>
+                <address>Via degli Alfani 47, Firenze</address>
               </div>
             </div>
 
@@ -240,10 +252,7 @@
     <script src="lib/venobox/venobox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
-
     <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
+    
   </body>
 </html>
