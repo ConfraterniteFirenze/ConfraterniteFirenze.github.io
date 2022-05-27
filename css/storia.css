@@ -1,12 +1,17 @@
 body{
  font-family: "Open Sans", sans-serif;
  text-align: justify;
-   background: #060d22;
-   color: #fff;
+ background: #060d22;
+ color: #fff;
+ padding-left: 1rem;
+ padding-right: 1rem;
 }
 h2{
- text-align: center;  
+ text-align: center;
+ color: #f82249;
+ font-weight: bold;
 }
 h3{
- text-align: left;  
+ text-align: left;
+ font-weight: bold;
 }
