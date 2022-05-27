@@ -1,7 +1,12 @@
-h2, h3{
+body{
+ font-family: "Open Sans", sans-serif;
+ text-align: justify;
+   background: #060d22;
    color: #fff;
-  }
-  
- p{
-    text-align: justify;
-  }
+}
+h2{
+ text-align: center;  
+}
+h3{
+ text-align: left;  
+}
