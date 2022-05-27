@@ -156,7 +156,7 @@ h6 {
   transition: all 0.5s;
 }
 
-#header #logo h1 {
+#header .logo h1 {
   font-size: 36px;
   margin: 0;
   padding: 6px 0;
@@ -167,16 +167,16 @@ h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 span {
+#header .logo h1 span {
   color: #f82249;
 }
 
-#header #logo h1 a,
-#header #logo h1 a:hover {
+#header .logo h1 a,
+#header .logo h1 a:hover {
   color: #fff;
 }
 
-#header #logo img {
+#header .logo img {
   padding: 0;
   margin: 0;
   max-height: 40px;
