@@ -1,5 +1,5 @@
 // The data/time we want to countdown to
-var countDownDate = new Date("Jun 7, 2022 16:00:00").getTime();
+var countDownDate = new Date("Jun 8, 2022 16:00:00").getTime();
 var countElement = document.getElementById("count");
 // Run myfunc every second
 var myfunc = setInterval(() => {
@@ -17,4 +17,4 @@ var myfunc = setInterval(() => {
     clearInterval(myfunc);
     countElement.innerText = "";
   }
-}, 1000); //TODO cambiare a days e non ms
+}, 1000*300); //TODO cambiare a days e non ms
