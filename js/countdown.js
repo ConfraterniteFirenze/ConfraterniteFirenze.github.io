@@ -2,8 +2,9 @@
 var countDownDate = new Date("Sept 24, 22 9:30:18").getTime();
 var countElement = document.getElementById("count");
 // Run myfunc every second
-var myfunc = setInterval(() => {
-  var now = new Date().getTime();
+
+function refresh(){
+var now = new Date().getTime();
   var timeleft = countDownDate - now;
 
   // Calculating the days, hours, minutes and seconds left
@@ -17,4 +18,7 @@ var myfunc = setInterval(() => {
     clearInterval(myfunc);
     countElement.innerText = "";
   }
-}, 1000*300); //TODO cambiare a days e non ms
+}
+
+var myfunc = setInterval(refresh, 1000*300);
+refresh();
