@@ -11,12 +11,12 @@ var now = new Date().getTime();
   var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
 
   // Result is output to the specific element
-  countElement.innerText = days;
+  countElement.innerText = "- " + days + " giorni all'evento";
 
   // Display the message when countdown is over
   if (timeleft < 0) {
     clearInterval(myfunc);
-    countElement.innerText = "";
+    countElement.innerText = "evento terminato";
   }
 }
 
