@@ -880,11 +880,3 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
-
-#count:before {
-  content: "- ";
-}
-
-#count:after {
-  content: " giorni all'evento";
-}
